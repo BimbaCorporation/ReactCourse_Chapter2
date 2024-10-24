@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 // Імпорт компонентів
 import Menu from '../components/Menu';
 import Reviews from '../components/Reviews';
+import Item from '../components/Item';
 import Register from '../components/Register';
 import Profile from '../components/Profile';
 import Cart from '../components/Cart';
@@ -18,6 +19,7 @@ const BasicRoute = () => {
       <Routes>
         <Route path="/" element={<Navigate to="/menu" />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/item" element={<Item />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/register" element={<Register />} />
         <Route path="/profile" element={<Profile />} />

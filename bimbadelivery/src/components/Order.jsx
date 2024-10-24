@@ -8,6 +8,9 @@ const Order = () => {
             <Link to="/Menu">
               <button>Назад</button>
             </Link>
+            <Link to="/orders/history">
+          <button>Історія замовлень</button>
+        </Link>
           </nav>
         </div>
       );
