@@ -5,9 +5,7 @@ import './App.css'; // Додаємо стилі
 
 const App = () => {
   return (
-    <div className="App">
-     
-
+    <div>
       <BasicRoute />
     </div>
   );

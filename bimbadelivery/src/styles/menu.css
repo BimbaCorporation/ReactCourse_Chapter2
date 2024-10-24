@@ -1,0 +1,64 @@
+
+
+.menu_Header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgb(39,34,124);
+    background: linear-gradient(90deg, rgba(39,34,124,1) 14%, rgba(4,208,155,1) 69%, rgba(0,212,255,1) 100%);
+}
+
+.header_menu_main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav_header {
+    display: flex;
+    gap: 12px; 
+}
+
+.menu_Header h1 {
+    margin-left: 20px; 
+}
+
+.nav_container {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1; 
+}
+
+.register-button, button {
+    padding: 12px;
+    background: linear-gradient(135deg, #4caf50 0%, #81c784 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.register-button:hover, button:hover {
+    background: linear-gradient(135deg, #45a049 0%, #66bb6a 100%);
+    transform: translateY(-2px);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
