@@ -2,17 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 
-
 const Menu = () => {
   return (
     <div>
       <h1>Меню</h1>
       <nav>
+      <Link to="/register">
+        <button className="register-button">Реєстрація</button>
+      </Link>
+        <Link to="/item">
+          <button>Товари</button>
+        </Link>
         <Link to="/reviews">
           <button>Відгуки</button>
-        </Link>
-        <Link to="/register">
-          <button>Реєстрація</button>
         </Link>
         <Link to="/profile">
           <button>Профіль</button>
@@ -22,9 +24,6 @@ const Menu = () => {
         </Link>
         <Link to="/order">
           <button>Оформити замовлення</button>
-        </Link>
-        <Link to="/orders/history">
-          <button>Історія замовлень</button>
         </Link>
       </nav>
     </div>

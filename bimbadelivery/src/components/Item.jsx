@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const OrderHistory = () => {
+const Item = () => {
     return (
         <div>
-          <h1>Історія замовлень</h1>
+          <h1>Товари</h1>
           <nav>
-            <Link to="/order">
+            <Link to="/Menu">
               <button>Назад</button>
             </Link>
           </nav>
@@ -13,4 +13,4 @@ const OrderHistory = () => {
       );
 };
 
-export default OrderHistory;
+export default Item;
